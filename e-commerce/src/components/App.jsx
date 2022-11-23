@@ -1,12 +1,11 @@
 import './App.css';
-import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar/Navbar.jsx';
 
-const App = () => {
-  const usuario = {nombre: "Matías", apellido: "Arce"}
+const App = () => {  
   return (
-    <div>
-      <Navbar/>
-    </div>
+    <>
+      <Navbar/> 
+    </>
   );
 }
 
