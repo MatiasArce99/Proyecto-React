@@ -1,0 +1,12 @@
+.bg-light{
+    background-color: darkgoldenrod;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carrito{
+    margin-right: 1rem;
+}
