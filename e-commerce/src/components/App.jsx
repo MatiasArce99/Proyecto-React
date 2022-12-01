@@ -3,12 +3,13 @@ import Navbar from './Navbar/Navbar.jsx';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemCount from './ItemCount/ItemCount';
 
-const App = () => {  
+const App = () => {
+  
   return (
     <>
-      <Navbar/>
-      <ItemListContainer greeting={"Primera Entrega"}/>
-      <ItemCount/>
+      <Navbar />
+      <ItemListContainer greeting={"Primera Entrega"} />
+      <ItemCount />
     </>
   );
 }
