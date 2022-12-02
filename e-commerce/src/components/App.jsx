@@ -4,12 +4,12 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemCount from './ItemCount/ItemCount';
 
 const App = () => {
-  
+
   return (
     <>
       <Navbar />
       <ItemListContainer greeting={"Primera Entrega"} />
-      <ItemCount />
+      <ItemCount stock={10} />
     </>
   );
 }
