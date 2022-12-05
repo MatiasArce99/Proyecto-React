@@ -3,12 +3,14 @@ const Item = ({ juego }) => {
     console.log(juego);
     return (
         <div>
-            <div className="card" style={{ width: '18rem' }}>
-                <img src="..." className="card-img-top" alt="..." />
+            <div className="card cardJuego">
+                <img src={`../img/${juego.img}`} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <h5 className="card-title">{juego.nombre}</h5>
+                    <p className="card-text">{juego.plataforma}</p>
+                    <p className="card-text">{juego.tipo}</p>
+                    <p className="card-text">{juego.precio}</p>
+                    <button className="btn btn-dark">Ver Juego</button>
                 </div>
             </div>
         </div>

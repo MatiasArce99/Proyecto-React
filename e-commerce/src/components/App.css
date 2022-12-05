@@ -10,3 +10,14 @@ p{
 .carrito{
     margin-right: 1rem;
 }
+
+.cardJuego{
+    width: 18rem;
+    margin: 4px;
+}
+
+.cardJuegos{
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+}
