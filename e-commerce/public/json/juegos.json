@@ -1,0 +1,18 @@
+[{
+    "id": 1,
+    "nombre": "Call of Duty Modern Warfare 2",
+    "tipo": "Guerra",
+    "plataforma": "PS5",
+    "precio": 30000,
+    "stock": 20,
+    "img": "cod.jpg"
+},
+{
+    "id": 2,
+    "nombre": "Fifa 23",
+    "tipo": "Deporte",
+    "plataforma": "Xbox Series X",
+    "precio": 25000,
+    "stock": 15,
+    "img": "fifa.jpg"
+}]
