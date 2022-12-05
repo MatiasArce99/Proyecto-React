@@ -4,7 +4,7 @@ const ItemList = ({juegoList}) => {
     console.log(juegoList);
     return (
         <div>
-            <h1>Item List</h1>
+            {juegoList.map(jueg => <Item key={jueg.id} juego = {jueg}/>)}
         </div>
     );
 }
