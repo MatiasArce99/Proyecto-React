@@ -1,4 +1,3 @@
-//Modifica array de objeto
 import Item from "../Item/Item";
 const ItemList = ({juegoList}) => {
     console.log(juegoList);

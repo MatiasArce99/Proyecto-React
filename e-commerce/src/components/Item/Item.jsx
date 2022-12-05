@@ -1,4 +1,3 @@
-//CARD PRODUCTO
 const Item = ({ juego }) => {
     console.log(juego);
     return (
