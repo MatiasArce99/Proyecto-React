@@ -15,4 +15,13 @@
     "precio": 25000,
     "stock": 15,
     "img": "fifa.jpg"
+},
+{
+    "id": 3,
+    "nombre": "Age of Empires IV",
+    "tipo": "Estrategia",
+    "plataforma": "PC",
+    "precio": 15000,
+    "stock": 25,
+    "img": "fifa.jpg"
 }]
