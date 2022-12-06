@@ -23,5 +23,50 @@
     "plataforma": "PC",
     "precio": 15000,
     "stock": 25,
-    "img": "fifa.jpg"
+    "img": "age.jpg"
+},
+{
+    "id": 4,
+    "nombre": "Battlefield 2042",
+    "tipo": "Guerra",
+    "plataforma": "Xbox Series X",
+    "precio": 30000,
+    "stock": 10,
+    "img": "battlefield.jpg"
+},
+{
+    "id": 5,
+    "nombre": "Fortnite",
+    "tipo": "Estrategia",
+    "plataforma": "PS5",
+    "precio": 10000,
+    "stock": 15,
+    "img": "fortnite.jpg"
+},
+{
+    "id": 6,
+    "nombre": "God of War",
+    "tipo": "Lucha",
+    "plataforma": "PS5",
+    "precio": 20000,
+    "stock": 18,
+    "img": "gow.jpg"
+},
+{
+    "id": 7,
+    "nombre": "Halo Infinite",
+    "tipo": "Guerra",
+    "plataforma": "Xbox Series X",
+    "precio": 28000,
+    "stock": 9,
+    "img": "halo.jpg"
+},
+{
+    "id": 8,
+    "nombre": "Age of Mythology",
+    "tipo": "Estrategia",
+    "plataforma": "PC",
+    "precio": 8000,
+    "stock": 25,
+    "img": "mythology.jpg"
 }]
