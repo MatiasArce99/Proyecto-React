@@ -7,19 +7,17 @@ const ItemListContainer = ({ greeting }) => {
   const [juegos, setJuegos] = useState([]);
   useEffect(() => {
     consultarBD().then(juegoList => {
-      const cardJuegos = ItemList({juegoList})
+      const cardJuegos = ItemList({ juegoList })
       setJuegos(cardJuegos);
     })
   }, []);
-  
+
   //console.log(juegos);
 
   return (
-    <>
-      <div className="row cardJuegos">
-        {juegos}
-      </div>
-    </>
+    <div className="row cardJuegos">
+      {juegos}
+    </div>
   );
 }
 
