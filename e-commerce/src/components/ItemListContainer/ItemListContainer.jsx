@@ -6,7 +6,7 @@ const ItemListContainer = ({ greeting }) => {
 
   const [juegos, setJuegos] = useState([]);
   useEffect(() => {
-    consultarBD().then(juegoList => {
+    consultarBD('./json/juegos.json').then(juegoList => {
       const cardJuegos = ItemList({ juegoList })
       setJuegos(cardJuegos);
     })
