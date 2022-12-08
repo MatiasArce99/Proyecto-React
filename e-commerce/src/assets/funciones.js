@@ -1,5 +1,5 @@
-const consultarBD = async () => {
-    const response = await fetch('./json/juegos.json')//Consulta asincrónica
+const consultarBD = async (ruta) => {
+    const response = await fetch(ruta)//Consulta asincrónica
     const juegos = await response.json()    
     return juegos;
 }
