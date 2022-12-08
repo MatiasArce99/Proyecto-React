@@ -11,12 +11,12 @@ const ItemListContainer = ({ greeting }) => {
     })
   }, []);
 
+  //console.log(juegos);
+  
   return (
-    <>
-      <div className="row cardJuegos">
-        {juegos}
-      </div>
-    </>
+    <div className="row cardJuegos">
+      {juegos}
+    </div>
   );
 }
 

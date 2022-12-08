@@ -1,3 +1,7 @@
+.bg-light{
+    background-color: lightsalmon;
+}
+
 p{
     font-size: 20px;
     font-weight: bold;
@@ -22,4 +26,9 @@ p{
 .cardBody{
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.itemDetail{
+    max-width: 540px;
+    margin-top: 20px;
 }
