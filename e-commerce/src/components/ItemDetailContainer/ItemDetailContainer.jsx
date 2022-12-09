@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react";
+import {useParams} from "react-router-dom";
 import { consultarBD } from "../../assets/funciones";
 import ItemDetail from "../ItemDetail/ItemDetail";
+
 const ItemDetailContainer = () => {
     const [juego, setJuego] = useState([]);
+    const {id} = useParams();
+
     useEffect(() => {
-        consultarBD().then(juegos => {
-            const jueg = juegos.find(j => j.id === 1)
+        consultarBD('../json/juegos.json').then(juegos => {
+            const jueg = juegos.find(j => j.id === parseInt(id));
             setJuego(jueg);
         })
     }, []);

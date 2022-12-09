@@ -1,5 +1,6 @@
+//CARD PRODUCTO
 const Item = ({ juego }) => {
-    console.log(juego);
+    
     return (
         <div>
             <div className="card cardJuego">
@@ -9,7 +10,7 @@ const Item = ({ juego }) => {
                     <p className="card-text">{juego.plataforma}</p>
                     <p className="card-text">{juego.tipo}</p>
                     <p className="card-text">{juego.precio}</p>
-                    <button className="btn btn-dark">Ver Juego</button>
+                    <button className="btn btn-dark"><Link className="nav-link" to={`/juego/${juego.id}`}>Ver Juego</Link></button>
                 </div>
             </div>
         </div>
