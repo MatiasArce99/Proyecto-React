@@ -9,20 +9,21 @@ const ItemListContainer = ({ greeting }) => {
   const { categoria } = useParams();
   useEffect(() => {
     if (categoria) {
-      consultarBD('../json/juegos.json').then(juegoList => {
-        //const juegoList = juegos.filter(jueg => jueg.stock > 0).filter(jueg => jueg.idCategroia === parseInt(categoria));
+      consultarBD('../json/juegos.json').then(game => {
+        const juegoList = game.filter(jueg => jueg.stock > 0).filter(jueg => jueg.idCategoria === parseInt(categoria));
         const cardJuegos = ItemList({ juegoList })
         setJuegos(cardJuegos);
       })
 
     } else {
-      consultarBD('./json/juegos.json').then(juegoList => {
+      consultarBD('./json/juegos.json').then(game => {
+        const juegoList = game.filter(jueg => jueg.stock > 0)
         const cardJuegos = ItemList({ juegoList })
         setJuegos(cardJuegos);
       })
     }
 
-  }, []);
+  }, [categoria]);
 
   //console.log(juegos);
 
