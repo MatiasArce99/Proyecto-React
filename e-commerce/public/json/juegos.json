@@ -1,5 +1,6 @@
 [{
     "id": 1,
+    "idCategoria":3,
     "nombre": "Call of Duty Modern Warfare 2",
     "tipo": "Guerra",
     "plataforma": "PS5",
@@ -9,6 +10,7 @@
 },
 {
     "id": 2,
+    "idCategoria":2,
     "nombre": "Fifa 23",
     "tipo": "Deporte",
     "plataforma": "Xbox Series X",
@@ -18,6 +20,7 @@
 },
 {
     "id": 3,
+    "idCategoria":1,
     "nombre": "Age of Empires IV",
     "tipo": "Estrategia",
     "plataforma": "PC",
@@ -27,6 +30,7 @@
 },
 {
     "id": 4,
+    "idCategoria":2,
     "nombre": "Battlefield 2042",
     "tipo": "Guerra",
     "plataforma": "Xbox Series X",
@@ -36,6 +40,7 @@
 },
 {
     "id": 5,
+    "idCategoria":3,
     "nombre": "Fortnite",
     "tipo": "Estrategia",
     "plataforma": "PS5",
@@ -45,6 +50,7 @@
 },
 {
     "id": 6,
+    "idCategoria":3,
     "nombre": "God of War",
     "tipo": "Lucha",
     "plataforma": "PS5",
@@ -54,6 +60,7 @@
 },
 {
     "id": 7,
+    "idCategoria":2,
     "nombre": "Halo Infinite",
     "tipo": "Guerra",
     "plataforma": "Xbox Series X",
@@ -63,6 +70,7 @@
 },
 {
     "id": 8,
+    "idCategoria":1,
     "nombre": "Age of Mythology",
     "tipo": "Estrategia",
     "plataforma": "PC",
