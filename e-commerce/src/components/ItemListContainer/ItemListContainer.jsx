@@ -24,8 +24,6 @@ const ItemListContainer = ({ greeting }) => {
 
   }, [categoria]);
 
-  //console.log(juegos);
-  
   return (
     <div className="row cardJuegos">
       {juegos}
